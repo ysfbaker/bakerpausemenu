@@ -2,7 +2,7 @@ function AddTextEntry(key, value)
 	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
 end
 
-Citizen.CreateThread(function()
+CreateThread(function()
   AddTextEntry('FE_THDR_GTAO', '~w~BakerV')
   AddTextEntry('PM_PANE_LEAVE', '~w~Sunucudan ayrıl')
   AddTextEntry('PM_PANE_QUIT', '~r~Fivem\'i kapat')
